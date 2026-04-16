@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Handling in Express</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Form Handling</h1>
+    <form action="/form-submit" method="POST">
+        Name: <input type="text" name="name" placeholder="Enter Your Name">
+        <br><br>
+        Email: <input type="email" name="email" placeholder="Enter Your Email">
+        <br><br>
+        Password: <input type="password" name="password" placeholder="Enter Your Password">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
